@@ -1,0 +1,220 @@
+@media screen and (max-width: 1200px) {
+    .text-block {
+        margin-bottom: 35px;
+    }
+    .map-page__slider {
+        max-width: 800px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    .slider {
+        max-width: 800px;
+    }
+    .map-page__slides  {
+        min-width: 675px;
+    }
+    .wrap:nth-child(n+6) {
+        display: none;
+    }
+    .slider__container {
+        margin-top: 23px;
+    }
+    .map__img {
+        background-image: url("../../../assets/images/map_1200.svg");
+        min-width: 800px;
+        min-height: 388px;
+        margin: 0;
+        background-size:contain;
+        background-repeat: no-repeat;
+      }
+      .animal-location svg {
+        width: 75px;
+        height: 80px;
+      }
+      .animal-photo {
+        width: 35px;
+        height: 35px;
+        top: 12px;
+        left: 17px;
+      }
+      .eagle {
+        margin-top: 45px;
+        margin-left: 120px;
+      }
+      .crocodail {
+        margin-top: 58px;
+        margin-left: 4px;
+      }
+      .garilla {
+        margin-top: 135px;
+        margin-left: 142px;
+      }
+      .panda {
+        margin-top: 58px;
+        margin-left: 136px;
+      }
+      .map-page__button {
+          margin-top: 35px;
+      }
+}
+@media screen and (max-width: 640px) {
+    .map-page {
+        margin-top: 94px;
+    }
+    .map-page section {
+        margin-bottom: 78px;
+    }
+    .map-page__slider {
+        max-width: 600px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    .slider {
+        max-width: 600px;
+    }
+    .map-page__slides  {
+        min-width: 535px;
+        margin: 0 auto;
+    }
+    .wrap:nth-child(n+5) {
+        display: none;
+    }
+    .text-block {
+        margin-top: 23px;
+    }
+    .map-page__slider {
+        margin-bottom: 3px;
+    }    
+    .map__img {
+        /* background-image: url("../../../assets/images/map_1200.svg"); */
+        min-width: 600px;
+        min-height: 290px;
+        margin: 0;
+        background-size:contain;
+        background-repeat: no-repeat;
+      }
+      .animal-location svg {
+        width: 75px;
+        height: 95px;
+      }
+      .animal-photo {
+        width: 43px;
+        height: 43px;
+        top: 12px;
+        left: 15px;
+      }
+      .eagle {
+        margin-top: 5px;
+        margin-left: 47px;
+      }
+      .crocodail {
+        margin-top:18px;
+        margin-left: -22px;
+      }
+      .garilla {
+        margin-top: 70px;
+        margin-left: 90px;
+      }
+      .panda {
+        margin-top: 14px;
+        margin-left: 83px;
+      }
+      .map-page__button {
+          margin-top: 35px;
+      }
+      .footer__button {
+        top: 1160px;
+        left: 345px;
+      }
+}
+@media screen and (max-width: 320px) {
+    h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .map-page section {
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+    .text-block {
+        margin: 10px 10px 38px 10px;
+    font-size: 12px;
+    line-height: 14px;
+    }
+    .map-page__slider {
+        max-width: 300px;
+        height: 162px;
+    }
+    .slider {
+        max-width: 300px;
+    }
+    .map-page__slides  {
+        min-width: 230px;
+        margin: 0 auto;
+    }
+    .wrap:nth-child(n+4) {
+        display: none;
+    }
+    .item__active .common-slide {
+        width: 75px;
+        height: 75px;
+    }
+    .common-slide {
+        width: 60px;
+        height: 60px;
+
+      }
+      .slide__border {
+        width: 85px;
+        height: 85px;
+      }
+      .slide__wraper {
+        max-width: 81px;
+        min-height: 81px;
+        margin: 2px;
+      }
+      .slider__container {
+          margin-top: 20px;
+          margin-bottom: 35px;
+      }
+      .map__img {
+        /* background-image: url("../../../assets/images/map_1200.svg"); */
+        min-width: 280px;
+        min-height: 146px;
+        margin-top: 25px;
+        background-size:contain;
+        background-repeat: no-repeat;
+      }
+      .animal-location svg {
+        width: 34px;
+        height: 47px;
+      }
+      .animal-photo {
+        width: 22px;
+        height: 22px;
+        top: 9px;
+        left: 7px;
+      }
+      .eagle {
+        margin-top: 25px;
+        margin-left: 27px;
+      }
+      .crocodail {
+        margin-top: 35px;
+        margin-left: -5px;
+      }
+      .garilla {
+        margin-top: 60px;
+        margin-left: 45px;
+      }
+      .panda {
+        margin-top: 35px;
+        margin-left: 48px;
+      }
+      .footer__button {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 45px 0 0 13px;
+      } 
+}

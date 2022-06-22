@@ -1,0 +1,456 @@
+@media screen and (max-width: 1200px) {
+  .first-screen-main {
+    max-height: 616px;
+  }
+  .first-screen {
+    min-height: 916px;
+  }
+  .first-screen h2 {
+    margin: 30px 0 0 0;
+  }
+  .first-screen__wraper {
+    flex-direction: column;
+  }
+  .first-screen-main__button {
+    order: 1;
+    margin: 37px 0 0 0;
+  }
+  .first-screen-main__social {
+    order: 2;
+    margin: 320px 0 0 0;
+  }
+  .first-screen-main__slider {
+    left: 473px;
+    top: 438px;
+  }
+  .first-screen-main__container {
+    top: 353px;
+    margin-left: 351px;
+  }
+  .first-screen section {
+    margin-bottom: 72px;
+  }
+  .slide,
+  .item1 {
+    width: 180px;
+    height: 260px;
+    background-size: 170%;
+  }
+  .slides {
+    width: 1080px;
+  }
+  .how-it-works {
+    max-width: 746px;
+  }
+  .how-it-works__text {
+    margin-bottom: 14px;
+  }
+  .how-it-works__container input[type="range"]::-webkit-slider-thumb {
+    width: 80px;
+  }
+  .how-it-works__container input[type="range"]::-moz-range-thumb {
+    width: 80px;
+  }
+  .mission__cards {
+    width: 287px;
+  }
+  .pets-zoo__slide {
+    min-height: 300px;
+    min-width: 210px;
+  }
+  .pets-zoo__pictures {
+    width: 900px;
+  }
+  .pets {
+    width: 1040px;
+  }
+  .pets-zoo__slide .cards {
+    margin: 183px auto 30px auto;
+  }
+  .pets-zoo__name h2 {
+    margin-bottom: 34px;
+  }
+  .pay__header {
+    margin-bottom: 50px;
+  }
+  .step__arrow {
+    background-image: url("../../../assets/icons/Arrow5.svg");
+    width: 48px;
+    height: 20px;
+  }
+  .step__arrow img {
+    display: none;
+  }
+  .pay__button {
+    margin-top: 50px;
+  }
+  .step {
+    padding: 2px;
+  }
+  .step__wrap {
+    margin: 2px;
+    max-width: 236px;
+    min-height: 236px;
+  }
+  .testimonials {
+    width: 1040px;
+  }
+  .testimonials__item {
+    max-width: 440px;
+  }
+  .testimonials__card {
+    max-width: 326px;
+    margin: 47px auto 90px auto;
+  }
+  .testimonials__slider {
+    max-width: 1000px;
+  }
+  .map__img {
+    background-image: url("../../../assets/images/map_1200.svg");
+    background-size: cover;
+    width: 900px;
+    height: 436px;
+    background-repeat: no-repeat;
+  }
+  .eagle {
+    margin-top: 54px;
+    margin-left: 80px;
+  }
+  .crocodail {
+    margin-top: 64px;
+    margin-left: 22px;
+  }
+  .garilla {
+    margin-top: 155px;
+    margin-left: 182px;
+  }
+  .panda {
+    margin-top: 68px;
+    margin-left: 163px;
+  }
+  .tool-tip {
+    left: 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  .first-screen {
+    margin-top: 94px;
+  }
+  .first-screen h2 {
+    font-size: 89px; 
+    margin: 21px 0 0 0;
+    font-size: 64px;
+    line-height: 75px;
+  }
+  .first-screen-main__button {
+    margin: 33px 0 0 0;
+  }
+  .first-screen-main__social {
+    margin-top: 370px;
+  }
+  .first-screen-main__slider {
+    left: 53px;
+    top: 416px;
+  }
+  .slides {
+    left: 70px;
+  }
+  .first-screen section {
+    margin-bottom: 100px;
+  }
+  .first-screen-main__container {
+    margin-left: 285px;
+  }
+  .how-it-works__text {
+    margin-bottom: 30px;
+  }
+  .how-works {
+    margin-bottom: 70px;
+  }
+  .mission {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 675px;
+    align-items: center;
+  }
+  .grey-bg2 {
+    height: 875px;
+  }
+  .pets-zoo {
+    margin: 0 20px;
+    overflow: hidden;
+    max-width: 600px;
+  }
+  .pets-zoo__frame .arrow {
+    display: none;
+  }
+  .pets-zoo__frame {
+    width: 1040px;
+  }
+  .pets-zoo .slider__container {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .pay__steps {
+    flex-direction: column;
+    height: 935px;
+  }
+  .pay__header p {
+    margin: 20px 31px 0 31px;
+  }
+  .step__arrow {
+    transform: rotate(90deg);
+    width: 40px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+  }
+  .pay__header {
+    margin-bottom: 48px;
+  }
+  .testimonials {
+    max-width: 600px;;
+  }
+  .testimonials__slider {
+    margin-top: 46px;
+    max-width: 1300px;
+    margin-bottom: 21px;
+  }
+  .testimonials .arrow {
+    display: none;
+   }
+  .testimonials__item {
+    max-width: 590px;
+  }
+  .testimonials__card {
+    max-width: 440px;
+    margin: 47px auto 90px auto;
+  }
+  .testimonials__item:nth-child(2) {
+   display: none;
+  }
+  .map__img {
+    width: 600px;
+    height: 290px;
+    margin-top: 50px;
+  }
+  .map {
+   margin-bottom: 80px;
+  }
+  .eagle {
+    margin-top: 7px;
+    margin-left: 50px;
+  }
+  .crocodail {
+    margin-top: 16px;
+    margin-left: -10px;
+  }
+  .garilla {
+    margin-top: 70px;
+    margin-left: 92px;
+  }
+  .panda {
+    margin-top: 12px;
+    margin-left: 93px;
+  }
+  .tool-tip {
+    left: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .first-screen {
+    margin-top: 92px;
+    min-height: 669px;
+  }
+  .screen {
+    margin-top: 92px;
+  }
+  .first-screen h2 {
+    font-size: 48px;
+    margin: 0;
+    line-height: 56px;
+  }
+  .first-screen-main__button {
+    margin-top: 17px;
+  }
+  .first-screen-main__slider {
+    left: 3px;
+    top: 285px;
+  }
+  .slides {
+    left: 25px;
+    top: 85px;
+    width: 620px;
+  }
+  .slide {
+    width: 113px;
+    height: 164px;
+  }
+  .active-slide {
+    width: 140px;
+    height: 202px;
+  }
+  .first-screen-main__container {
+    top: 278px;
+    left: 145px;
+    margin: 15px 0 0 0;
+    width: 140px;
+  }
+  .first-screen-main__container input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+  }
+  .first-screen-main__container input[type="range"]::-webkit-slider-thumb {
+    height: 10px;
+    width: 20px;
+    margin-top: -2px;
+  }
+  .first-screen-main__container input[type="range"]::-moz-range-track {
+    width: 100%;
+    height: 5px;
+  }
+  .first-screen-main__container input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    margin-top: -2px;
+  }
+  .first-screen-main__container .inp {
+    width: 140px;
+    margin-top: 0;
+  }
+  .first-screen-main__social {
+    display: none;
+  }
+  .how-works {
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+  .how-it-works h2, 
+  .pets-zoo__name h2,
+  .pay h2,
+  .testimonials h2, .map h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .how-it-works__text {
+    margin-top: 20px;
+  }
+  .how-it-works__container {
+    margin-top: 23px;
+    margin-bottom: 20px;
+  }
+  .mission {
+    margin: 50px  auto;
+    height: 620px;
+  }
+  .grey-bg2 {
+      height: 719px;
+  }
+  .pets {
+      max-width: 320px;
+      overflow: hidden;
+      margin-top: 100px;
+  }
+  .pets-zoo {
+      margin: 0 10px;
+  }
+  .pets-zoo .slider__container {
+      margin: 28px auto 25px;
+  }
+  .pay {
+    margin: 50px auto;
+  }
+  .pay__header p {
+      display: none;
+  }
+  .pay__header {
+      margin-bottom: 32px;
+  }
+  .pay__button {
+      margin-top: 40px;
+  }
+  .testimonials {
+      max-width: 300px;
+  }
+  .testimonials__slider {
+      margin-top: 36px;
+  }
+  .testimonials__item {
+      max-width: 300px;
+      height: 363px;
+  }
+  .testimonials__card {
+      margin: 50px 14px 112px 14px;
+  }
+  .name {
+    margin: 47px auto 19px auto;
+  }
+  .testimonials__container {
+      margin: 21px auto 21px;
+  }
+  .map__img {
+      width: 300px;
+      height: 146px;
+      margin: 30px auto;
+  }
+  .animal-location svg {
+    width: 34px;
+    height: 47px;
+  }
+  .animal-photo {
+    width: 22px;
+    height: 22px;
+    top: 5px;
+    left: 6px;
+  }
+  .eagle {
+    margin-top: 2px;
+    margin-left: 25px;
+  }
+  .crocodail {
+    margin-top: 12px;
+    margin-left: -7px;
+  }
+  .garilla {
+    margin-top: 40px;
+    margin-left: 42px;
+  }
+  .panda {
+    margin-top: 10px;
+    margin-left: 55px;
+  }
+  .tool-tip {
+    left: 0;
+    min-width: 238px;
+    height: 113px;
+      z-index: 2;
+  }
+  .tool-tip__wraper {
+    max-width: 200px;
+    height: 113px; 
+  }
+  .tool-tip__animal {
+    width: 40px;
+    height: 40px;
+  }
+  .tool-tip__info, .animal-info {
+    width: 150px;
+  }
+  .animal-info h6 {
+    font-size: 14px;
+    margin: 0 auto 7px auto;
+  }
+  .animal-info p {
+    font-size: 10px;
+    line-height: 13px;
+    margin-bottom: 5px;
+  }
+  .animal-info span {
+    font-size: 11px;
+  }
+  .animal {
+    display: flex;
+    align-items: flex-end;
+  }
+  .map {
+    margin-bottom: 60px;
+   }
+}
